@@ -1,0 +1,12 @@
+prefix=D:/Tarun/personal_project/cold_email_generetor/cold/Library
+exec_prefix=D:/Tarun/personal_project/cold_email_generetor/cold/Library
+libdir=D:/Tarun/personal_project/cold_email_generetor/cold/Library/lib
+includedir=D:/Tarun/personal_project/cold_email_generetor/cold/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
